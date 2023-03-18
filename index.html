@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer with History</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+
+<body class="bg-white dark:bg-gray-800">
+  <div class="container mx-auto px-4 py-16">
+    <h1 class="text-4xl font-bold mb-4 text-center">Timer with History</h1>
+    <div id="timer" class="text-6xl text-center mb-8">00:00:00</div>
+    <div class="flex items-center mb-4">
+      <input id="task-input" type="text" class="border-b-2 border-gray-500 bg-transparent py-2 mr-4 w-full text-2xl text-gray-700 dark:text-gray-300 focus:outline-none" placeholder="Add a new task...">
+      <button id="add-task" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none">Add Task</button>
+    </div>
+    <ul id="task-list" class="list-none">
+    </ul>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
